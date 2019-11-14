@@ -1,4 +1,4 @@
-## lci_dict: Life cycle inventory dictionary module
+# lci_dict: Life cycle inventory dictionary module
 
 Provides conversion functions to create standardized Python dictionaries for storing
 life cycle inventory data corresponding to the olca-schema. This is a multi-tiered dictionary format with processes at
@@ -10,6 +10,8 @@ From the dictionaries, .zip archives of openLCA schema JSON-LD files can be writ
 Language: Python 3.x
 Dependencies: pandas, olca-ipc (both available via pip install)
 
+## Install with pip:
+>pip install git+https://github.com/WesIngwersen/lci_dict.git
 
 
 
